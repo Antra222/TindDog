@@ -1,0 +1,175 @@
+
+body{
+  font-family:"Montserrat-thin";
+  text-align:center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:"Montserrat-Black";
+  font-weight:bold;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+/* Heading Section */
+
+.big-heading{
+  font-family:"Montserrat-Black";
+  font-size: 56px;
+  line-height: 1.5;
+  font-weight:bold;
+}
+
+.section-heading{
+  font-size:48px;
+  line-height:1.5;
+}
+
+/* Containers */
+
+.container-fluid/*although bootstrap has pre defined style but we gonna personalise it using css and overriding some of bootstarp's styles*/
+{
+  padding:7% 15%;
+}
+
+/* Section */
+
+.colored-section{
+    background-color:#ff4c68;
+    color:#fff;
+}
+
+.white-section{
+  background-color:#fff;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding:0 0 70px;
+}
+
+.navbar-brand{
+  font-family: ubuntu;
+  font-size:40px;
+  font-weight:bold;
+}
+
+.nav-item{
+  padding:0 18px 0 18px;
+}
+
+.nav-link{
+  font-size: 19.2px;
+  font-family:"Montserrat-Light"
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align:left;
+
+}
+
+/* Title Image */
+
+.title-image{
+  width:24%;
+  transform:rotate(25deg);
+  position:absolute;
+  right:25%;
+}
+
+/* Features Section*/
+
+#features{
+  position:relative;
+}
+
+.feauture-title{
+  font-size:24px;
+}
+
+.feature-box{
+  padding:5%;
+}
+
+.icon{/* why can't use fas class?*/
+  color:#ef8172;
+  margin-bottom:16px;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+/*Testimonials*/
+
+#testimonials{
+  background-color: #ef8172;/*overriding background color applied by colored-section class*/
+}
+
+.testimonial-text{
+  font-size:48px;
+  line-height:1.5;
+}
+.testimonial-img{
+  border-radius:50%;
+  width:10%;
+  margin:20px;
+}
+
+/*Press section*/
+
+#press{
+  background-color:#ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+/*Pricing section*/
+
+.price-text{
+  font-size:48px;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+/*Cta section*/
+
+
+/*footer section*/
+
+#footer{
+  background-color:#fff;
+  color:#40514E;
+}
+
+.social-icon{
+  margin:20px 10px;
+}
+@media (max-width: 1028px){
+  .title-image{
+    width:60%;
+    position:static;
+    transform:rotate(0deg);
+  }
+  #title{
+    text-align:center;
+  }
+}
